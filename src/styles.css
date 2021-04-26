@@ -1,0 +1,49 @@
+body {
+    background-color: #2e2e2e;
+    color: white;
+    font-family: sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 20px;
+}
+
+.card {
+    height: 100px;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    border-radius: 5px;
+}
+
+.card img {
+    height: 100%;
+}
+
+.user-info h2 {
+    font-size: 1.1rem;
+}
+
+.user-info p {
+    font-size: .8rem;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 33.3333%);
+    gap: 10px;
+}
